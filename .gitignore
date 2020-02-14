@@ -1,0 +1,187 @@
+# User-specific stuff:
+.idea/
+*.iml
+svil/
+target/
+
+
+node_modules/
+
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+# Mongo Explorer plugin:
+.idea/**/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+### Eclipse template
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# CDT- autotools
+.autotools
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+.cache-main
+.scala_dependencies
+.worksheet
+### SVN template
+.svn/
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+package-lock.json
+
+generated
+*.iml
+
+
+
+## DOTCMS .gitignore
+
+# config/log files   #
+######################
+tomcat/conf
+bin/*.sh
+*.log
+.classpath
+.settings/*
+.project
+.idea/
+*.iml
+*.ipr
+*.iws
+tomcat/work
+tomcat/logs
+tomcat/temp
+
+#Temporary Build Migration Ignores
+dotCMS/html/js/_rulesengine
+
+
+
+# Instance Files     #
+######################
+dotCMS/dotSecure
+dotCMS/dotsecure
+dotCMS/assets
+sql/cms/dotcms_mssql-sybase.sql
+sql/cms/dotcms_mysql.sql
+sql/cms/dotcms_oracle.sql
+sql/cms/dotcms_postgresql.sql
+sql/cms/dotcms_h2.sql
+dotCMS/email_backups
+dotCMS/WEB-INF/felix/felix-cache
+dotCMS/WEB-INF/felix/osgi-extra-generated.conf
+dotCMS/WEB-INF/felix/osgi-extra.conf
+dotCMS/html/js/tinymce/jscripts/tiny_mce/*.gz
+
+_original
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Build #
+######################
+dotCMS/WEB-INF/classes/
+libs/test
+build/
+out/
+dotCMS/WEB-INF/generated_web.xml
+dotCMS/WEB-INF/lib/*.jar
+dotCMS/WEB-INF/felix/bundle/dot.*.jar
+dotCMS/WEB-INF/lib/plugin-*.jar
+starter.zip
+.ant-targets-build.xml
+.gradle/
+/*.local.*
